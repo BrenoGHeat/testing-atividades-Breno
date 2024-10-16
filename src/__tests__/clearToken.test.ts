@@ -5,5 +5,6 @@ describe("Unit test: clear token", () => {
         const token = clearToken("Bearer 1234");
 
         expect(token).toBe("1234");
+      
     });
 })
